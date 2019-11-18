@@ -5,7 +5,8 @@ import java.util.List;
 
 /**
  * 方法区和运行时常量池溢出
- * VM Args: -XX:PermSize=10M -XX:MaxPermSize=10M
+ * VM Args: -XX:PermSize=10M -XX:MaxPermSize=10M（在 Java8 中该参数无效）
+ *          -XX:MaxMetaspaceSize=10M（java8 将方法区放到了本地内存中）
  *
  * @author : cuixiuyin
  * @date : 2019/11/13

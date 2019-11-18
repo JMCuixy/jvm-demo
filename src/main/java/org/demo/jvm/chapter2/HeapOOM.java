@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * Java 溢出
- *
+ * <p>
  * VM Args: -Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError
  * -Xms20m 设置堆的最小值
  * -Xmx20m 设置堆的最大值 （-Xms和-Xmx设置成一样可以避免堆自动扩展）
