@@ -7,7 +7,7 @@ import org.springframework.cglib.proxy.MethodProxy;
 import java.lang.reflect.Method;
 
 /**
- * 方法区用于存放 Class 的相关信息，如类名、访问修饰符、常量池、字段描述、方法描述等，对于这个区域的测试基本思路都是运行时产生大量的类
+ * 方法区用于存放 Class 的相关信息，如类名、访问修饰符、常量池、静态变量、字段描述、方法描述等，对于这个区域的测试基本思路都是运行时产生大量的类
  * 去填充方法区，直到溢出。
  * <p>
  * 在动态生成大量 Class 的应用中，需要特别注意类的回收情况。比较常见的场景有：Cglib 字节码增强和动态语言、大量JSP或动态产生JSP文件、基于 OSGi 的应用
