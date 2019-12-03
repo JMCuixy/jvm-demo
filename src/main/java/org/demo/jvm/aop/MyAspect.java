@@ -7,7 +7,6 @@ package org.demo.jvm.aop;
  * @date : 2019/12/2
  */
 public class MyAspect {
-
     /**
      * 前置通知
      */
