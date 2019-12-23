@@ -2,6 +2,7 @@ package org.demo.jvm.chapter3.reference;
 
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.SoftReference;
+import java.lang.ref.WeakReference;
 import java.util.Hashtable;
 
 /**
@@ -71,7 +72,7 @@ public class EmployeeCache {
     // 清除那些所软引用的Employee对象已经被回收的EmployeeRef对象
     private void cleanCache() {
         EmployeeRef ref;
-        while ((ref = (EmployeeRef) queue.poll()) != null) {
+        while ((ref = (EmployeeRef) queue.poll()) != null && ref.get() == null) {
             employeeRefs.remove(ref._key);
         }
     }
