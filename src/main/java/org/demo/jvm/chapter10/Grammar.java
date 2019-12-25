@@ -40,4 +40,16 @@ public class Grammar {
         System.out.println("g == (a + b)：" + (g == (a + b)));
         System.out.println("g.equals(a + b)：" + (g.equals(a + b)));
     }
+
+    // 方法一带有 final 修饰
+    public void foo(final int arg) {
+        final int var = 0;
+    }
+
+    // 方法二不带有 final 修饰
+    public void foo2(int arg) {
+        int var = 0;
+    }
+
+
 }
