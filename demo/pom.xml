@@ -52,6 +52,9 @@
                         <annotationProcessor>
                             org.jvm.processor.name.check.NameCheckProcessor
                         </annotationProcessor>
+                    <!--<annotationProcessor>
+                            org.jvm.processor.lombok.DataProcessor
+                        </annotationProcessor>-->
                     </annotationProcessors>
                 </configuration>
             </plugin>

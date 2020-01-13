@@ -1,1 +1,2 @@
 org.jvm.processor.name.check.NameCheckProcessor
+org.jvm.processor.lombok.DataProcessor
