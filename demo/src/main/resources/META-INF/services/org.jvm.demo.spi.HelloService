@@ -1,0 +1,2 @@
+org.jvm.demo.spi.impl.HelloServiceImplA
+org.jvm.demo.spi.impl.HelloServiceImplB
