@@ -49,7 +49,7 @@ public class EncodeUtil {
 
     public static void main(String[] args) throws UnsupportedEncodingException {
         //测试乱码
-        testAllCharset("浣犲ソ");
+        testAllCharset("缃戠粶棰勭害鍑虹");
     }
 
 }
