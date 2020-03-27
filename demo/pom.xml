@@ -20,10 +20,6 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
@@ -32,6 +28,31 @@
             <groupId>org.jvm.processor</groupId>
             <artifactId>processor</artifactId>
             <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <!--BTrace-->
+        <dependency>
+            <groupId>com.sun.tools.btrace</groupId>
+            <artifactId>btrace-agent</artifactId>
+            <version>1.2.3</version>
+            <type>jar</type>
+            <scope>system</scope>
+            <systemPath>D:\btace\libs\btrace-agent.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.tools.btrace</groupId>
+            <artifactId>btrace-boot</artifactId>
+            <version>1.2.3</version>
+            <type>jar</type>
+            <scope>system</scope>
+            <systemPath>D:\btace\libs\btrace-boot.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.tools.btrace</groupId>
+            <artifactId>btrace-client</artifactId>
+            <version>1.2.3</version>
+            <type>jar</type>
+            <scope>system</scope>
+            <systemPath>D:\btace\libs\btrace-client.jar</systemPath>
         </dependency>
     </dependencies>
 
