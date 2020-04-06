@@ -33,26 +33,17 @@
         <dependency>
             <groupId>com.sun.tools.btrace</groupId>
             <artifactId>btrace-agent</artifactId>
-            <version>1.2.3</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>D:\btace\libs\btrace-agent.jar</systemPath>
+            <version>1.1.3</version>
         </dependency>
         <dependency>
             <groupId>com.sun.tools.btrace</groupId>
             <artifactId>btrace-boot</artifactId>
-            <version>1.2.3</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>D:\btace\libs\btrace-boot.jar</systemPath>
+            <version>1.1.3</version>
         </dependency>
         <dependency>
             <groupId>com.sun.tools.btrace</groupId>
             <artifactId>btrace-client</artifactId>
-            <version>1.2.3</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>D:\btace\libs\btrace-client.jar</systemPath>
+            <version>1.1.3</version>
         </dependency>
     </dependencies>
 

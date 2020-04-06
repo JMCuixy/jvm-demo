@@ -1,11 +1,14 @@
 package org.jvm.demo.chapter4.btrace;
 
+import org.springframework.stereotype.Component;
+
 import java.util.Random;
 
 /**
  * @author : cuixiuyin
  * @date : 2020/3/26
  */
+@Component
 public class BtraceCase {
 
     static final Random random = new Random();
@@ -14,12 +17,14 @@ public class BtraceCase {
         while (true) {
             int a = random.nextInt(100);
             int b = random.nextInt(100);
-            add(a, b);
+            int add = add(a, b);
+            System.out.println("add:" + add);
+
         }
     }
 
     public int add(int a, int b) throws InterruptedException {
-        Thread.sleep(random.nextInt(10) * 100);
+        Thread.sleep(1000);
         return a + b;
     }
 
