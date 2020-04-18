@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * @Author xiuyin.cui@luckincoffee.com
+ * @Author 1099442418@qq.com
  * @Date 2020/4/15 15:24
  * @Description 类加载器和 instanceof 的关系
  */

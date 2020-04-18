@@ -1,12 +1,11 @@
 package org.jvm.demo.chapter7;
 
 import sun.misc.Launcher;
-import sun.plugin.extension.ExtensionUtils;
 
 /**
- * @Author xiuyin.cui@luckincoffee.com
+ * @Author 1099442418@qq.com
  * @Date 2020/4/15 15:48
- * @Description 1.0
+ * @Description 方法静态解析演示
  */
 public class Test {
 
